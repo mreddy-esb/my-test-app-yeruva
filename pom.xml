@@ -24,7 +24,7 @@
 				<version>${mule.tools.version}</version>
 				<extensions>true</extensions>
 				<configuration>
-                    <copyToAppsDirectory>true</copyToAppsDirectory>
+
                     <cloudHubDeployment>
 						<muleVersion>4.2.1</muleVersion>
 						<username>${username}</username>
