@@ -24,6 +24,8 @@ http://www.mulesoft.org/schema/mule/ee/dw http://www.mulesoft.org/schema/mule/ee
 	message: "success"
 }]]></dw:set-payload>
         </dw:transform-message>
+        <logger message="#[payload]" level="INFO" doc:name="Logger"/>
+        <set-payload value="#[payload]" mimeType="application/json" doc:name="Set Payload"/>
 
     </flow>
     <apikit:mapping-exception-strategy name="test-apiKitGlobalExceptionMapping">
