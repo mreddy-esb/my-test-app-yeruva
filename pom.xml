@@ -27,7 +27,7 @@
                     <copyToAppsDirectory>true</copyToAppsDirectory>
                     <cloudHubDeployment>
 						<muleVersion>4.2.1</muleVersion>
-						<username>ymreddy5</username>
+						<username>${username}</username>
 						<password>${password}</password>
 						<applicationName>${artifactId}-myeruva</applicationName>
 						<environment>Sandbox</environment>
